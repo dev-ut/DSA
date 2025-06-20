@@ -1,29 +1,48 @@
 class NumMatrix {
 public:
-   int ans[205][205];  // just to store ans;
+    vector<vector<int>> psum;
+
     NumMatrix(vector<vector<int>>& matrix) 
     {
-        // calculating prefix sum
-        ans[0][0] = matrix[0][0];
-        for (int i = 1; i < matrix[0].size(); i++) ans[0][i] = ans[0][i - 1] + matrix[0][i]; // pehle row ki sum precompute
-        for (int j = 1; j < matrix.size(); j++) ans[j][0] = ans[j - 1][0] + matrix[j][0]; // pehle colm ki sum  precompute
-        // ab bche hue space matrix ka sum calculate krenge
-        for (int i = 1; i < matrix.size(); i++) {
-            for (int j = 1; j < matrix[0].size(); j++) {
-                ans[i][j] = matrix[i][j] + ans[i - 1][j] + ans[i][j - 1] - ans[i - 1][j - 1];
+        int n = matrix.size();
+        int m = matrix[0].size();
+
+        psum = vector<vector<int>>(n, vector<int>(m, 0)); // resize
+
+        // 1st: add all row individually and store cumulative row sum
+        for(int i = 0; i < n; i++)
+        {
+            psum[i][0] = matrix[i][0];
+            for(int j = 1; j < m; j++)
+            {
+                psum[i][j] = psum[i][j - 1] + matrix[i][j];
             }
         }
+
+        // 2nd: add all columns on top of existing row sums
+        for(int j = 0; j < m; j++)
+        {
+            for(int i = 1; i < n; i++)
+            {
+                psum[i][j] = psum[i - 1][j] + psum[i][j];
+            }
+        }
+
+        // Now prefix sum matrix is ready
     }
-    
+
     int sumRegion(int row1, int col1, int row2, int col2) 
     {
-        int del = 0;
-        if (row1 != 0) del += ans[row1 - 1][col2];
-        if (col1 != 0) del += ans[row2][col1 - 1];
-        if (row1 != 0 && col1 != 0) del -= ans[row1 - 1][col1 - 1];
-        return ans[row2][col2] - del;
+        int matrixans = psum[row2][col2];
+
+        if(row1 > 0) matrixans -= psum[row1 - 1][col2];
+        if(col1 > 0) matrixans -= psum[row2][col1 - 1];
+        if(row1 > 0 && col1 > 0) matrixans += psum[row1 - 1][col1 - 1]; // diagonal overlap add back
+
+        return matrixans;  // direct if r1,c1 == 0
     }
 };
+
 
 /**
  * Your NumMatrix object will be instantiated and called as such:
