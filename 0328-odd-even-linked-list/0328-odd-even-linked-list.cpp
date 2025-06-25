@@ -10,44 +10,28 @@
  */
 class Solution {
 public:
-    ListNode* oddEvenList(ListNode* head) 
+ListNode* oddEvenList(ListNode* head) 
+{
+    if (head == NULL || head->next == NULL) return head;
+
+    // Directly use original nodes
+    ListNode* odd = head;            // 1st node
+    ListNode* even = head->next;     // 2nd node
+    ListNode* evenHead = even;       // for final joining
+
+    while (even && even->next)
     {
-    if (head == NULL || head->next == NULL) return head;  // jb two se jyafd ho tbhi list bnao 
+        odd->next = even->next;      // odd ko next odd se jodo
+        odd = odd->next;             // odd aage badhao
 
-    // Dummy nodes for odd and even
-    ListNode* oddhead = new ListNode(-1);
-    ListNode* evenhead = new ListNode(-1);
-    
-    // Tail pointers for both lists
-    ListNode* oddtail = oddhead;
-    ListNode* eventail = evenhead;
-
-    ListNode* temp = head;
-    int index = 1; // 1-based index (odd position starts from 1)
-
-    while (temp != nullptr)
-    {
-        if (index % 2 != 0) // odd position node
-        {
-            oddtail->next = temp;
-            oddtail = oddtail->next;
-        }
-        else // even position node
-        {
-            eventail->next = temp;
-            eventail = eventail->next;
-        }
-        temp = temp->next;
-        index++;
+        even->next = odd->next;      // even ko next even se jodo
+        even = even->next;           // even aage badhao
     }
 
-    // Important: terminate even list properly
-    eventail->next = nullptr;
+    // end mein odd ka next evenHead se jod do
+    odd->next = evenHead;
 
-    // Join odd list with even list
-    oddtail->next = evenhead->next;
-
-    // Final result starts after dummy node
-    return oddhead->next;
+    return head;
 }
+
 };
