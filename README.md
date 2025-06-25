@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0234-palindrome-linked-list) |
 | [1013-fibonacci-number](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0908-middle-of-the-linked-list) |
 ## Two Pointers
@@ -80,5 +82,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0142-linked-list-cycle-ii) |
+| [0234-palindrome-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0908-middle-of-the-linked-list) |
+## Stack
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
