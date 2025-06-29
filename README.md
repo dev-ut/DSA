@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0033-search-in-rotated-sorted-array) |
+| [0055-jump-game](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0055-jump-game) |
 | [0162-find-peak-element](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0162-find-peak-element) |
 | [0238-product-of-array-except-self](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0303-range-sum-query-immutable) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0055-jump-game) |
 | [0875-longest-mountain-in-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0875-longest-mountain-in-array) |
 | [1013-fibonacci-number](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1013-fibonacci-number) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -134,4 +136,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0875-longest-mountain-in-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0875-longest-mountain-in-array) |
+## Greedy
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0055-jump-game) |
 <!---LeetCode Topics End-->
