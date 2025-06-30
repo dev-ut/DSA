@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0033-search-in-rotated-sorted-array) |
+| [0051-n-queens](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0057-insert-interval) |
@@ -150,4 +151,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0056-merge-intervals) |
+## Backtracking
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
