@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-longest-mountain-in-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0875-longest-mountain-in-array) |
 | [1603-running-sum-of-1d-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [2294-minimum-time-to-complete-trips](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2294-minimum-time-to-complete-trips) |
 ## Math
 |  |
 | ------- |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0033-search-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0162-find-peak-element) |
+| [2294-minimum-time-to-complete-trips](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2294-minimum-time-to-complete-trips) |
 ## Linked List
 |  |
 | ------- |
