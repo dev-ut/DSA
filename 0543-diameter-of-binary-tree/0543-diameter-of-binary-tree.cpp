@@ -11,23 +11,25 @@
  */
 class Solution {
 public:
-    int level(TreeNode* root, int &maxpath) {
-        if(root == nullptr) return 0;
+int maxpath=0;
+int height (TreeNode* root)
+        {
+            if(root==NULL) return 0;
+            return 1+max(height(root->left),height(root->right));
+        }
 
-        // Left aur right subtree ka height nikal lo
-        int left = level(root->left, maxpath);
-        int right = level(root->right, maxpath);
+    int diameterOfBinaryTree(TreeNode* root) 
+    {
+        
+        if(root==NULL) return 0;
 
-        // Har node par max path check kro (diameter = left + right)
-        maxpath = max(maxpath, left + right);
+        int path= height(root->left)+ height(root->right);  // including current root node 
 
-        // Wapas height return kro is node ke liye
-        return 1 + max(left, right);
-    }
+        maxpath=max(path,maxpath);
 
-    int diameterOfBinaryTree(TreeNode* root) {
-        int maxpath = 0;
-        level(root, maxpath);
+        diameterOfBinaryTree(root->left);
+        diameterOfBinaryTree(root->right);
+
         return maxpath;
     }
 };
