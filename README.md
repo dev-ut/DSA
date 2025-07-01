@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0033-search-in-rotated-sorted-array) |
 | [0051-n-queens](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0055-jump-game) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0142-linked-list-cycle-ii) |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0056-merge-intervals) |
 ## Backtracking
 |  |
