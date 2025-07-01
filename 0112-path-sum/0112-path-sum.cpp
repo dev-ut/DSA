@@ -4,8 +4,10 @@ public:
 bool preorder(TreeNode* root, int targetSum)
 {
     if(root == NULL) return false;
-    if(root->left == NULL && root->right == NULL) {
+    if(root->left == NULL && root->right == NULL) 
+    {
          if (root->val == targetSum) return true;
+         else return false;
     }
      
     // Traverse left and right subtrees
