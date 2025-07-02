@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1603-running-sum-of-1d-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1755-defuse-the-bomb](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1755-defuse-the-bomb) |
 | [2294-minimum-time-to-complete-trips](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2294-minimum-time-to-complete-trips) |
 ## Math
 |  |
@@ -163,4 +164,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
+| [1755-defuse-the-bomb](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1755-defuse-the-bomb) |
 <!---LeetCode Topics End-->
