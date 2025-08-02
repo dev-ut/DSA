@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0061-rotate-list) |
+| [0125-valid-palindrome](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0142-linked-list-cycle-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0125-valid-palindrome](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0125-valid-palindrome) |
 | [0567-permutation-in-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0567-permutation-in-string) |
 ## Divide and Conquer
 |  |
