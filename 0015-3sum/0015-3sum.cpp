@@ -11,7 +11,7 @@ public:
         // Fix one element and find the other two using two pointers
         for (int i = 0; i < n - 2; i++) {
             // Avoid duplicates
-            if (i == 0 || (i > 0 && nums[i] != nums[i - 1])) 
+            if (i == 0 || (i > 0 && nums[i] != nums[i - 1])) // avoing shuruwati duplicates 
             {
                 int left = i + 1;
                 int right = n - 1;
