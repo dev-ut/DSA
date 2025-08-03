@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0283-move-zeroes) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0304-range-sum-query-2d-immutable) |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0209-minimum-size-subarray-sum) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
 | [2294-minimum-time-to-complete-trips](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2294-minimum-time-to-complete-trips) |
@@ -202,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0209-minimum-size-subarray-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0209-minimum-size-subarray-sum) |
 | [0567-permutation-in-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0567-permutation-in-string) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
