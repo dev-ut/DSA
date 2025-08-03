@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0304-range-sum-query-2d-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0560-subarray-sum-equals-k) |
+| [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0724-find-pivot-index](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0724-find-pivot-index) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0142-linked-list-cycle-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0567-permutation-in-string) |
+| [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
 ## Matrix
 |  |
 | ------- |
@@ -199,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0215-kth-largest-element-in-an-array) |
+| [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
 ## Backtracking
 |  |
 | ------- |
@@ -249,4 +252,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0078-subsets) |
+| [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
 <!---LeetCode Topics End-->
