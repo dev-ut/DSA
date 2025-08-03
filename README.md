@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0057-insert-interval) |
+| [0075-sort-colors](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0078-subsets) |
 | [0134-gas-station](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0134-gas-station) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0142-linked-list-cycle-ii) |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0215-kth-largest-element-in-an-array) |
 ## Backtracking
 |  |
