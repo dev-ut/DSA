@@ -14,6 +14,7 @@ public:
         {
             par[i]=par[i-1]+nums[i];  // prefix aary taiyar hua
         }
+       
         //suffix aary
         sar[n-1]=nums[n-1];
         for(int i=n-2;i>=0;i--)
