@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0234-palindrome-linked-list) |
 ## Tree
 |  |
@@ -227,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0020-valid-parentheses](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0344-reverse-string) |
