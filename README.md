@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0078-subsets) |
 | [0134-gas-station](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0134-gas-station) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0002-add-two-numbers) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1013-fibonacci-number](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1013-fibonacci-number) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 ## Dynamic Programming
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0020-valid-parentheses) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0234-palindrome-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0234-palindrome-linked-list) |
 ## Tree
 |  |
