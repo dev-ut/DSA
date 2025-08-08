@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0724-find-pivot-index) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
 | [0875-longest-mountain-in-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0875-longest-mountain-in-array) |
+| [0943-sum-of-subarray-minimums](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0943-sum-of-subarray-minimums) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1603-running-sum-of-1d-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0055-jump-game) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0875-longest-mountain-in-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0875-longest-mountain-in-array) |
+| [0943-sum-of-subarray-minimums](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0943-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1013-fibonacci-number) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 ## Prefix Sum
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0234-palindrome-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0234-palindrome-linked-list) |
+| [0943-sum-of-subarray-minimums](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0943-sum-of-subarray-minimums) |
 ## Tree
 |  |
 | ------- |
@@ -273,4 +276,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0084-largest-rectangle-in-histogram) |
+| [0943-sum-of-subarray-minimums](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0943-sum-of-subarray-minimums) |
 <!---LeetCode Topics End-->
