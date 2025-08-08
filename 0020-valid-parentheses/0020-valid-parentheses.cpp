@@ -9,25 +9,26 @@ public:
 
         for(int i=0;i<k;i++)
         {
-            sts=st.size();
-            
-            
              if(s[i]=='(' || s[i]=='{' ||s[i]=='[')
              {
               st.push(s[i]);
              }
                
-            else if(s[i]==')' &&st.top()=='(')
+            else if(s[i]==')'&& st.size()>0 &&st.top()=='(')
             {
                 st.pop();
             }
-            else if(s[i]=='}' && st.top()=='{')
+            else if(s[i]=='}'&& st.size()>0 && st.top()=='{')
             {
                 st.pop();
             }
-            else if(s[i]==']' && st.top()=='[')
+            else if(s[i]==']'&& st.size()>0 && st.top()=='[')
             {
                 st.pop();
+            }
+            else
+            {
+                return false;
             }
 
             
