@@ -1,30 +1,30 @@
 class Solution {
 public:
-    int minSubArrayLen(int target, vector<int>& nums) 
+    int minSubArrayLen(int target, vector<int>& arr) 
     {
-        int n=nums.size();
-        int i=0;
-        int j=0;
-        int sum=0;
-        int length;
-        int minlength=INT_MAX;
+       // is a varibale slinding window techique 
 
-        while(j<n)
-        {
-            sum=sum+nums[j];
-            while(sum>=target && i<=j)
-            {
-                minlength=min(minlength,j-i+1);
-                sum=sum-nums[i];   // window mai se peehla i ka sum subtract kiya 
-                i++;  // i shribnk kiya 
-            }
+       int n=arr.size();
+       int i=0;
+       int j=0;
+       int sum=0;
+       int mnlgth=INT_MAX;
+       while(j<n)
+       {
+         sum+=arr[j];
 
-            j++;
-            
-        }
-        if(minlength==INT_MAX) return 0;  // cae 3 ke liye h hta kr dekh lo
-        return minlength;
-        
-        
+         while(sum>=target &&i<=j)
+         {
+            mnlgth=min(mnlgth,j-i+1);
+            cout<<mnlgth<<",";
+            sum-=arr[i];
+            i++;
+         }
+
+         j++;
+       }
+
+       if(mnlgth==INT_MAX) return 0;
+       else return mnlgth;
     }
 };
