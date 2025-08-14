@@ -31,6 +31,7 @@ public:
         }
     }
 //4 swap kr do pivot or uske agle elmet se
+cout<<nums[j]<<",";
     swap(nums[pind],nums[j]);
 return;
 }
