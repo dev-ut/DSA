@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1755-defuse-the-bomb](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1755-defuse-the-bomb) |
 | [2294-minimum-time-to-complete-trips](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2294-minimum-time-to-complete-trips) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2432-number-of-zero-filled-subarrays) |
 ## Math
 |  |
 | ------- |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1013-fibonacci-number](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1013-fibonacci-number) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2432-number-of-zero-filled-subarrays) |
 ## Dynamic Programming
 |  |
 | ------- |
