@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0304-range-sum-query-2d-immutable) |
+| [0496-next-greater-element-i](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0560-subarray-sum-equals-k) |
 | [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0142-linked-list-cycle-ii) |
 | [0217-contains-duplicate](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0217-contains-duplicate) |
+| [0496-next-greater-element-i](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0567-permutation-in-string) |
 | [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
@@ -162,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0234-palindrome-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0496-next-greater-element-i) |
 | [0943-sum-of-subarray-minimums](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0943-sum-of-subarray-minimums) |
 ## Tree
 |  |
@@ -278,5 +281,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0084-largest-rectangle-in-histogram) |
+| [0496-next-greater-element-i](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0496-next-greater-element-i) |
 | [0943-sum-of-subarray-minimums](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0943-sum-of-subarray-minimums) |
 <!---LeetCode Topics End-->
