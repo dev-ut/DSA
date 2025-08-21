@@ -1,6 +1,7 @@
 class Solution {
 public:
-    int largestRectangleArea(vector<int>& arr) {
+    int largestRectangleArea(vector<int>& arr) 
+    {
          int n=arr.size();
         int nsi[n];
         nsi[n-1]=n;
@@ -16,8 +17,15 @@ public:
             if(st.size()==0) nsi[i]=n;
             else nsi[i]=st.top();
 
+           
             st.push(i);
         }
+        
+        for(auto ele:nsi)
+        {
+            cout<<ele<<",";
+        }
+
         // to get prev smallest element index; same logic
         int psi[n];
         stack<int> gt;
@@ -35,7 +43,12 @@ public:
 
             gt.push(i);
         }
-        // now area
+       // now area
+         for(auto ele:psi)
+        {
+            cout<<ele<<",";
+        }
+
         int maxarea=0;
         for(int i=0;i<n;i++)
         {
