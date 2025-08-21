@@ -1,40 +1,35 @@
 class Solution {
 public:
-    void nextPermutation(vector<int>& nums){   // take example 3 4 2
+    void nextPermutation(vector<int>& nums) 
+    {
         int n=nums.size();
-        int pind = -1;
-        //1 finding pivot
-        for(int i=n-2;i>=0;i--)
+        int pindx=-1;
+        for(int i=n-2;i>=0;i--)  // sabse pehle right side m jo chota elment hai usko nikalo
         {
-          if( nums[i]<nums[i+1])
-          {
-            pind=i;
-            break;
-          }
+            if(nums[i]<nums[i+1])
+            {
+                pindx=i;
+                break;
+            }
         }
-    // ex-2 dekho have to return if araay is already sorted 4 321
-    if (pind == -1) //mmlb ki apke paas jo vector tha wo alreay  sabse bda tha so reverse 
-    {
-      reverse(nums.begin(),nums.end());
-      return;
-    }
-   //2 to sort / reverse after pivot
-    reverse(nums.begin()+(pind+1),nums.end());
-    //3 step hai ki find just greatest elemt after pivot
-    int j=-1;
-    for(int i=pind+1;i<n;i++)
-    {
-        if(nums[i]>nums[pind])
+
+        if(pindx==-1)
         {
-            j=i;
-            break;
+            reverse(nums.begin(),nums.end());
+            return;
         }
+
+        reverse(nums.begin()+pindx+1,nums.end());
+        int j=-1;
+        for(int i=pindx+1;i<n;i++)
+        {
+            if(nums[pindx]<nums[i])
+            {
+                j=i;
+                break;
+            }
+        }
+        swap(nums[pindx],nums[j]);
+        return;
     }
-//4 swap kr do pivot or uske agle elmet se
-cout<<nums[j]<<",";
-    swap(nums[pind],nums[j]);
-return;
-}
-
-
 };
