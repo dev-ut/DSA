@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0724-find-pivot-index) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
 | [0875-longest-mountain-in-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0875-longest-mountain-in-array) |
+| [0907-koko-eating-bananas](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0907-koko-eating-bananas) |
 | [0943-sum-of-subarray-minimums](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0943-sum-of-subarray-minimums) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1603-running-sum-of-1d-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1603-running-sum-of-1d-array) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0287-find-the-duplicate-number) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
+| [0907-koko-eating-bananas](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0907-koko-eating-bananas) |
 | [2294-minimum-time-to-complete-trips](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2294-minimum-time-to-complete-trips) |
 ## Linked List
 |  |
