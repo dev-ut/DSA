@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0057-insert-interval) |
+| [0059-spiral-matrix-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0059-spiral-matrix-ii) |
 | [0075-sort-colors](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0084-largest-rectangle-in-histogram) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0059-spiral-matrix-ii) |
 | [0304-range-sum-query-2d-immutable](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0304-range-sum-query-2d-immutable) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
 | [1628-count-submatrices-with-all-ones](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1628-count-submatrices-with-all-ones) |
@@ -296,4 +298,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0059-spiral-matrix-ii) |
 <!---LeetCode Topics End-->
