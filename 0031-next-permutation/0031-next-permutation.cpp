@@ -4,32 +4,36 @@ public:
     {
         int n=nums.size();
         int pindx=-1;
-        for(int i=n-2;i>=0;i--)  // sabse pehle right side m jo chota elment hai usko nikalo
+        //{1,3,2,4}
+
+        for(int i=n-2;i>=0;i--)  // we are going to fnd the no whic is going to be just smaller then the no at rhe right
         {
             if(nums[i]<nums[i+1])
-            {
+            { 
                 pindx=i;
                 break;
             }
         }
-
-        if(pindx==-1)
+        if(pindx==-1)   // in this cause the array is [3,2,1]  this poora ulta
         {
-            reverse(nums.begin(),nums.end());
-            return;
+          reverse(nums.begin(),nums.end());
+          return;
         }
-
+        // now second step is to reverse the array with pindx+1
         reverse(nums.begin()+pindx+1,nums.end());
-        int j=-1;
+    
+        // third step is to swap the no whic is just greater then the pindx value 
+
         for(int i=pindx+1;i<n;i++)
         {
-            if(nums[pindx]<nums[i])
-            {
-                j=i;
-                break;
-            }
+         if(nums[i]>nums[pindx])
+         {
+            swap(nums[i],nums[pindx]);
+            break;
+         }
         }
-        swap(nums[pindx],nums[j]);
-        return;
+        return ;
+
+
     }
 };
