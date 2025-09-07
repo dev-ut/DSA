@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0142-linked-list-cycle-ii) |
 | [0217-contains-duplicate](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0242-valid-anagram) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0567-permutation-in-string) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0242-valid-anagram) |
 | [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
 ## Backtracking
 |  |
@@ -265,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0151-reverse-words-in-a-string) |
+| [0242-valid-anagram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0567-permutation-in-string) |
 ## Divide and Conquer
