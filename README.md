@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0498-diagonal-traverse) |
 | [0560-subarray-sum-equals-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0560-subarray-sum-equals-k) |
 | [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
+| [0713-subarray-product-less-than-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0724-find-pivot-index](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0724-find-pivot-index) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0304-range-sum-query-2d-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0560-subarray-sum-equals-k) |
+| [0713-subarray-product-less-than-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0724-find-pivot-index) |
 | [1603-running-sum-of-1d-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -135,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0287-find-the-duplicate-number) |
+| [0713-subarray-product-less-than-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0907-koko-eating-bananas) |
@@ -257,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0209-minimum-size-subarray-sum) |
 | [0567-permutation-in-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0567-permutation-in-string) |
+| [0713-subarray-product-less-than-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0940-fruit-into-baskets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0940-fruit-into-baskets) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
