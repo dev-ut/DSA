@@ -2,27 +2,32 @@ class Solution {
 public:
     vector<vector<string>> ans;
 
-    // Check karo ki (row, col) par queen rakhna safe hai ya nahi
-    bool isSafe(vector<string>& board, int row, int col, int n) 
+    bool isSafe(vector<string> &board,int row,int col,int n)
     {
-        // Same column ke upar check
-        for (int i = 0; i < row; i++) 
+        // ab 3 condition spr it will be checked 
+
+        // 1st upper colms m nhi hona chaiye koi queen 
+        int i=row-1,j=col;
+        while(i>=0)
         {
-            if (board[i][col] == 'Q') return false;
+            if(board[i][j]=='Q') return false;
+            i--;
         }
 
-        // Upper left diagonal
-        int i = row - 1, j = col - 1;
-        while (i >= 0 && j >= 0) {
-            if (board[i][j] == 'Q') return false;
+        // left diagonal m nhi hona chaiye koi queen 
+        i=row-1,j=col-1;
+        while(i>=0 && j>=0)
+        {
+            if(board[i][j]=='Q') return false;
             i--;
             j--;
         }
 
-        // Upper right diagonal
-        i = row - 1, j = col + 1;
-        while (i >= 0 && j < n) {
-            if (board[i][j] == 'Q') return false;
+        // right diagonal m nhi hona chaiye koi queen 
+        i=row-1,j=col+1;
+        while(i>=0 && j<n)
+        {
+            if(board[i][j]=='Q') return false;
             i--;
             j++;
         }
@@ -30,28 +35,33 @@ public:
         return true;
     }
 
-    void solve(vector<string>& board, int row, int n) {
-        // Base case: agar n queens place ho gayi
-        if (row == n) {
+    void solve(vector<string> &board,int row,int n)
+    {
+        if(row==n)
+        {
             ans.push_back(board);
-            return;
+            return ;
         }
 
-        // Har column try karo is row ke liye
-        for (int col = 0; col < n; col++) 
+        // we will come and place q at every colmn and check whter it is safe or not 
+        for(int col=0;col<n;col++)
         {
-            if (isSafe(board, row, col, n)==true) 
+            if(isSafe(board,row,col,n)==true)
             {
-                board[row][col] = 'Q';      // Queen rakh di
-                solve(board, row + 1, n);   // Next row pe jao
-                board[row][col] = '.';      // Backtrack
+                board[row][col]='Q';
+                solve(board,row+1,n);
+
+                // backtarck kre to wapas unmark kr do dot 
+                board[row][col]='.';
             }
         }
     }
 
-    vector<vector<string>> solveNQueens(int n) {
-        vector<string> board(n, string(n, '.')); // n x n board with '.'
-        solve(board, 0, n);
+    vector<vector<string>> solveNQueens(int n) 
+    {
+        // craeting board of char first 
+        vector<string> board(n, string(n, '.')); 
+        solve(board,0,n);
         return ans;
     }
 };
