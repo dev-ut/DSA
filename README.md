@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0084-largest-rectangle-in-histogram) |
+| [0088-merge-sorted-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0088-merge-sorted-array) |
 | [0134-gas-station](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0134-gas-station) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0142-linked-list-cycle-ii) |
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0242-valid-anagram) |
