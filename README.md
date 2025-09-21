@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0022-generate-parentheses) |
 | [0055-jump-game](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0055-jump-game) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0875-longest-mountain-in-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0875-longest-mountain-in-array) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0022-generate-parentheses) |
 | [0051-n-queens](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0078-subsets) |
 ## Sliding Window
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0022-generate-parentheses) |
 | [0125-valid-palindrome](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0205-isomorphic-strings) |
