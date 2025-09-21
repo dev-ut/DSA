@@ -1,26 +1,29 @@
 class Solution {
 public:
-vector<vector<int>> solve(vector<int>& nums, int i, vector<int> ans,vector<vector<int>>&fans)
+void solve(vector<int>& nums,vector<vector<int>>& fans,vector<int>&ans,int n,int indx)
 {
-    if(i>=nums.size())
-    {
+     // basce cae
+     if(indx==n)
+     {
         fans.push_back(ans);
-        return fans;
-    }
-    // take and notake
-  // Take the current element
-    ans.push_back(nums[i]);
-    solve(nums, i + 1, ans, fans);
-    // notake
-    ans.pop_back();
-    solve(nums, i + 1, ans, fans);
+        return ;
+     }
+    //take
+    ans.push_back(nums[indx]);
+    solve(nums,fans,ans,n,indx+1);
 
-    return fans;
+    // notake case
+    ans.pop_back();
+    solve(nums,fans,ans,n,indx+1);
+
 }
+
     vector<vector<int>> subsets(vector<int>& nums) 
     {
-        vector<int> ans;
-        vector<vector<int>>fans;
-        return solve(nums,0,ans,fans);
+     int n=nums.size();
+     vector<vector<int>>fans;
+     vector<int>ans;
+     solve(nums,fans,ans,n,0);   
+     return fans;
     }
 };
