@@ -22,7 +22,7 @@ public:
             else
             {
                 hi=mid-1;
-                ans=min(ans,nums[mid]);
+                ans=min(ans,nums[mid]);  // {3,1,2}
             }
         }
         return ans;
