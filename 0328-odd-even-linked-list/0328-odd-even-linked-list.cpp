@@ -19,7 +19,7 @@ ListNode* oddEvenList(ListNode* head)
     ListNode* even = head->next;     // 2nd node
     ListNode* evenHead = even;       // for final joining
 
-    while (even && even->next)
+    while (even!=NULL && even->next!=NULL)
     {
         odd->next = even->next;      // odd ko next odd se jodo
         odd = odd->next;             // odd aage badhao
