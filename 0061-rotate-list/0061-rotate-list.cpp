@@ -10,38 +10,33 @@
  */
 class Solution {
 public:
-    
- ListNode* rotateRight(ListNode* head, int k) 
- {
-        if (!head || !head->next || k == 0) return head;
+    ListNode* rotateRight(ListNode* head, int k) 
+    {
+       // agr do node se km ho aur k 0 ho to
+        
+       if(head==NULL || head->next==NULL||k==0) return head;
+       ListNode*temp=head;
+       int size=1;
+       while(temp!=NULL && temp->next!=NULL)
+       {
+          size++;
+          temp=temp->next;
+       }
+       k=k%size;
+       if(k==0) return head;
+      // now wee have to make it cicrcular taki it shoyld joing head
+       temp->next=head;
+     // nnow we iwll amke sure from whicj index are we going to roate
+       int indx=size-k;
+       temp=head;
+       for(int i=1;i<indx;i++)
+       {
+        temp=temp->next;   // temp is positioned below it has to be rotated
+       }
+      // set new haed 
+      ListNode* newhead=temp->next;
+      temp->next=nullptr;
+      return newhead;
 
-        // Step 1: Find size
-        ListNode* temp = head;
-        int size = 1;
-        while (temp->next) {
-            temp = temp->next;
-            size++;
-        }
-
-        // Step 2: Update k
-        k = k % size;
-        if (k == 0) return head;
-
-        // Step 3: Make it circular
-        temp->next = head; // last node connects to head
-
-        // Step 4: Move to new tail (size - k - 1)th node
-        int stepsToNewTail = size - k;
-        temp = head;
-        for (int i = 0; i < stepsToNewTail - 1; i++) 
-        {
-            temp = temp->next;
-        }
-
-        // Step 5: Set new head and break the loop
-        ListNode* newHead = temp->next;
-        temp->next = nullptr;
-
-        return newHead;
     }
 };
