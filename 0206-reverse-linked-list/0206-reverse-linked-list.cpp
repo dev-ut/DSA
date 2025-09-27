@@ -10,19 +10,20 @@
  */
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head)
+    ListNode* reverseList(ListNode* head) 
     {
-        ListNode *prev= NULL;
-        ListNode *curr=head;
-        ListNode *next=head;
+      ListNode*prev=NULL;
+      ListNode*curr=head;
+      ListNode*next=head;
 
-        while(curr!=NULL)
+       while(curr!=NULL)
         {
-            next=curr->next; // next age chlagya
-            curr->next=prev;
-            prev=curr;  // prev ko age kiya
-            curr=next;  // next ko age kiya
+           next=curr->next;
+           curr->next=prev;
+           prev=curr;
+           curr=next;
         }
         return prev;
+
     }
 };
