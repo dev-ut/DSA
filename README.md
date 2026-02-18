@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0567-permutation-in-string) |
 | [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
 | [0940-fruit-into-baskets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0940-fruit-into-baskets) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Matrix
 |  |
 | ------- |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0112-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0543-diameter-of-binary-tree) |
 | [0687-longest-univalue-path](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0687-longest-univalue-path) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0543-diameter-of-binary-tree) |
 | [0687-longest-univalue-path](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0687-longest-univalue-path) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -240,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0112-path-sum) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -251,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0112-path-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0543-diameter-of-binary-tree) |
 | [0687-longest-univalue-path](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0687-longest-univalue-path) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Enumeration
 |  |
 | ------- |
@@ -276,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0242-valid-anagram) |
 | [0455-assign-cookies](https://github.com/dev-ut/DSA/tree/master/0455-assign-cookies) |
 | [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Backtracking
 |  |
 | ------- |
