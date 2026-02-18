@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/dev-ut/DSA/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0498-diagonal-traverse) |
+| [0503-next-greater-element-ii](https://github.com/dev-ut/DSA/tree/master/0503-next-greater-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0560-subarray-sum-equals-k) |
 | [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
 | [0713-subarray-product-less-than-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0713-subarray-product-less-than-k) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0234-palindrome-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/dev-ut/DSA/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0943-sum-of-subarray-minimums) |
 | [1628-count-submatrices-with-all-ones](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1628-count-submatrices-with-all-ones) |
@@ -353,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/dev-ut/DSA/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0943-sum-of-subarray-minimums) |
 | [1628-count-submatrices-with-all-ones](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1628-count-submatrices-with-all-ones) |
 ## Simulation
