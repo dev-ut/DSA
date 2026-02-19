@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0304-range-sum-query-2d-immutable) |
+| [0349-intersection-of-two-arrays](https://github.com/dev-ut/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0455-assign-cookies](https://github.com/dev-ut/DSA/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0496-next-greater-element-i) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0242-valid-anagram) |
+| [0349-intersection-of-two-arrays](https://github.com/dev-ut/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0424-longest-repeating-character-replacement](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0424-longest-repeating-character-replacement) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0496-next-greater-element-i) |
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0287-find-the-duplicate-number) |
+| [0349-intersection-of-two-arrays](https://github.com/dev-ut/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0540-single-element-in-a-sorted-array](https://github.com/dev-ut/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0713-subarray-product-less-than-k) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -206,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0344-reverse-string) |
+| [0349-intersection-of-two-arrays](https://github.com/dev-ut/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/dev-ut/DSA/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0567-permutation-in-string) |
 | [0875-longest-mountain-in-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0875-longest-mountain-in-array) |
@@ -293,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0242-valid-anagram) |
+| [0349-intersection-of-two-arrays](https://github.com/dev-ut/DSA/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/dev-ut/DSA/tree/master/0455-assign-cookies) |
 | [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
