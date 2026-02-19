@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1755-defuse-the-bomb](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1755-defuse-the-bomb) |
 | [2104-sum-of-subarray-ranges](https://github.com/dev-ut/DSA/tree/master/2104-sum-of-subarray-ranges) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/dev-ut/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2294-minimum-time-to-complete-trips](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2294-minimum-time-to-complete-trips) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2432-number-of-zero-filled-subarrays) |
 ## Math
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0567-permutation-in-string) |
 | [0875-longest-mountain-in-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0875-longest-mountain-in-array) |
 | [0908-middle-of-the-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0908-middle-of-the-linked-list) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/dev-ut/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Stack
 |  |
 | ------- |
@@ -372,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0059-spiral-matrix-ii](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0059-spiral-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0498-diagonal-traverse) |
 | [0735-asteroid-collision](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0735-asteroid-collision) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/dev-ut/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Merge Sort
 |  |
 | ------- |
