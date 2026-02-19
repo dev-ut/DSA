@@ -1,46 +1,46 @@
 class Solution {
 public:
-    int largestRectangleArea(vector<int>& arr) 
+    int largestRectangleArea(vector<int>& heights) 
     {
-     
-    int n=arr.size();
-
-    // Previous Smaller Index (PSI)
-    vector<int>psi(n,-1);
-    stack<int>st;
-    st.push(0);
-    for(int i=1;i<n;i++)
-    {
-        while(st.size()>0 && arr[st.top()]>=arr[i])
+        int n=heights.size();
+        vector<int>psi(n,-1);
+        vector<int>nsi(n,n);
+        stack<int>st;
+        st.push(0);
+        // now finding psi
+        for(int i=1;i<n;i++)
         {
-            st.pop(); // yaha pe pop karna tha
+           while(st.size()>0 && heights[st.top()]>= heights[i])
+           {
+            st.pop();
+           }
+           if(st.size()>0)psi[i]=st.top();
+
+           st.push(i);
         }
 
-        if(st.size()>0) psi[i]=st.top(); // push_back nahi karna
-        st.push(i);
-    }
-
-    // Next Smaller Index (NSI)
-    vector<int>nsi(n,n);
-    stack<int>gt;
-    gt.push(n-1);
-    for(int i=n-2;i>=0;i--)
-    {
-        while(gt.size()>0 && arr[gt.top()]>=arr[i])
+        // now finding nsi
+        stack<int>gt;
+        gt.push(n-1);
+        for(int i=n-2;i>=0;i--)
         {
-            gt.pop(); // yaha bhi pop karna tha
+           while(gt.size()>0 && heights[gt.top()]>= heights[i])
+           {
+            gt.pop();
+           }
+           if(gt.size()>0)nsi[i]=gt.top();
+
+           gt.push(i);
         }
 
-        if(gt.size()>0) nsi[i]=gt.top(); // push_back ke jagah assignment
-        gt.push(i);
-    }
+        int mxarea=0;
 
-    int maxarea=0;
-    for(int i=0;i<n;i++)
-    {
-        int area=arr[i]*(nsi[i]-psi[i]-1);
-        maxarea=max(maxarea,area);
+        for(int i=0;i<n;i++)
+        {
+            int area=heights[i] *(nsi[i]-psi[i]-1);
+            mxarea=max(mxarea,area);
+        }
+        return mxarea;
+
     }
-    return maxarea;
-}
 };
