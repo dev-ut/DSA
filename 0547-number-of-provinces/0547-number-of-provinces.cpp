@@ -1,33 +1,41 @@
 class Solution {
 public:
-void dfs(vector<vector<int>>& isConnected, int row,vector<bool>&visited)
+void bfs(vector<vector<int>>& isConnected, int node, vector<bool>& visited)
 {
-    visited[row]=true;  // vsisted ark kiya 
-    // ab is row ke uske adj directly connetd elmts ko visite kro 
-    for(int col=0;col<isConnected.size();col++)
+    queue<int> q;
+    q.push(node);
+    visited[node] = true;
+
+    while (!q.empty())
     {
-        if(isConnected[row][col]==1 && visited[col]==false)
+        int curr = q.front();   // alag naam, shadowing nahi
+        q.pop();
+
+        for (int col = 0; col < isConnected.size(); col++)
         {
-            // to call rec and visit
-            dfs(isConnected,col,visited);
+            if (isConnected[curr][col] == 1 && !visited[col])
+            {
+                visited[col] = true;
+                q.push(col);
+            }
         }
     }
 }
-    int findCircleNum(vector<vector<int>>& isConnected) 
+
+int findCircleNum(vector<vector<int>>& isConnected) 
+{
+    int n = isConnected.size();
+    int countOfPrv = 0;
+    vector<bool> visited(n, false);
+
+    for (int i = 0; i < n; i++)
     {
-        int n=isConnected.size();
-        int countOfPrv=0;
-
-        vector<bool>visited(n,false); // 
-
-        for(int i=0;i<n;i++)
+        if (!visited[i])
         {
-            if(visited[i]== false)
-            {
-              dfs(isConnected,i,visited);  // jaise hi eak row mark ho
-               countOfPrv++;
-            }
+            bfs(isConnected, i, visited);
+            countOfPrv++;   // ek BFS = ek province
         }
-        return countOfPrv;
     }
+    return countOfPrv;
+}
 };
