@@ -253,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0112-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/dev-ut/DSA/tree/master/0547-number-of-provinces) |
 | [0687-longest-univalue-path](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0687-longest-univalue-path) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0112-path-sum) |
+| [0547-number-of-provinces](https://github.com/dev-ut/DSA/tree/master/0547-number-of-provinces) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
@@ -396,4 +398,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0148-sort-list) |
+## Union-Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/dev-ut/DSA/tree/master/0547-number-of-provinces) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/dev-ut/DSA/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
