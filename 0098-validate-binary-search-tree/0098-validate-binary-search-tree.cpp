@@ -11,25 +11,52 @@
  */
 class Solution {
 public:
-void inorder(TreeNode* root,vector<int>&ans)
+void morris(TreeNode* root,vector<int>&ans)
 {
-   if(root==NULL) return;
-    
-    inorder(root->left,ans);
-    ans.push_back(root->val);
-    inorder(root->right,ans);
+    TreeNode* curr=root;
+
+    while(curr!=NULL)
+    {
+        if(curr->left!=NULL)
+        {
+            TreeNode * p=curr->left;
+
+            while(p->right!=NULL &&  p->right != curr)
+            {
+                p=p->right;
+            }
+
+            // link kro 
+            if(p->right==NULL)
+            {
+                p->right=curr;
+                curr=curr->left;
+            }
+            // unlink kro 
+            if(p->right==curr)
+            {
+                ans.push_back(curr->val);
+                p->right=NULL;
+                curr=curr->right;
+            }
+        }
+        else
+        {
+            ans.push_back(curr->val);
+            curr=curr->right;
+        }
+    }
 }
     bool isValidBST(TreeNode* root) 
     {
-      vector<int>ans;
-      if(root==NULL) return false;
-      inorder(root,ans);
-      int n= ans.size();
-      for(int i=0;i<n-1;i++)
-      {
-        if(ans[i]>=ans[i+1]) return false;
-      } 
-
-      return true;   
+        if(root==NULL) return false;
+        vector<int>ans;
+        morris(root,ans);
+        // we will check ki ans mai sorted order hai ki nhi 
+        for(int i=0;i<ans.size()-1;i++)
+        {
+            if(ans[i]>=ans[i+1]) return false;
+        }
+        return true;
     }
 };
