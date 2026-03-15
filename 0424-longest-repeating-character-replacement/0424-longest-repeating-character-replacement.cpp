@@ -17,8 +17,8 @@ public:
         // now we will just use the formula 
         while((j-i+1)-mxfreq >k) // jb tk k is bda no problem but if chota
         {
-         mp[s[i]]--;
-         i++;
+         mp[s[i]]--;    // we are just delting the current value and shrinking it
+         i++;          // shriking of i ;
         }
 
         mxlength=max(mxlength,j-i+1);
