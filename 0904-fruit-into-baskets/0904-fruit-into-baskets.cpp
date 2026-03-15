@@ -15,9 +15,12 @@ public:
             {
                 while(mp.size()>2 && i<=j)
                 {
-
-                    mp.erase(fruits[i]);
-                    i++;
+                    mp[fruits[i]]--;
+                   if(mp[fruits[i]]==0)
+                   {
+                     mp.erase(fruits[i]);
+                   }
+                   i++; 
                 }
             }
             mxlength=max(mxlength,j-i+1);
