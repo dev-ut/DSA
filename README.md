@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/dev-ut/DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [0940-fruit-into-baskets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0940-fruit-into-baskets) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/dev-ut/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Matrix
 |  |
 | ------- |
@@ -331,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/dev-ut/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/dev-ut/DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [0940-fruit-into-baskets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0940-fruit-into-baskets) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/dev-ut/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1755-defuse-the-bomb](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1755-defuse-the-bomb) |
 ## String
@@ -346,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0344-reverse-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0567-permutation-in-string) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/dev-ut/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Divide and Conquer
 |  |
 | ------- |
