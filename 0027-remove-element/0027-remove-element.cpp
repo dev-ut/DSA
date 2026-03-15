@@ -1,18 +1,19 @@
 class Solution {
 public:
-int removeElement(vector<int>& nums, int val) 
-{
-    int n = nums.size();
-    int i = 0;
-    for (int j = 0; j < n; j++) 
+    int removeElement(vector<int>& nums, int val) 
     {
-        if (nums[j] != val) 
+      int i=0;
+      for(int j=0;j<nums.size();j++)
+      {
+        if(nums[j]!=val)
         {
-            nums[i] = nums[j];
+            nums[i]=nums[j];   // ye tab hi smjh ayega whne youu will reach the condition where u have to alter the two pointer sin pace 
             i++;
         }
+      } 
+      return i;
     }
-    return i; // Return number of valid elements
-}
-
 };
+// Note : always rember one static other dynaimc 
+//2nd  both dynaic one after the another 
+// in place revral place the i at front and j at last for in place reversla of anyarray or string .
