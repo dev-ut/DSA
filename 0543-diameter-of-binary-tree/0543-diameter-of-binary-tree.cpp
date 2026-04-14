@@ -11,25 +11,25 @@
  */
 class Solution {
 public:
-int maxpath=0;
-int height (TreeNode* root)
-        {
-            if(root==NULL) return 0;
-            return 1+max(height(root->left),height(root->right));
-        }
-
-    int diameterOfBinaryTree(TreeNode* root) 
+int mxdepth=0;
+int height(TreeNode* root)
+{
+   if(root==NULL) return 0;
+   return 1+ max(height(root->left),height(root->right));
+}
+int diameterOfBinaryTree(TreeNode* root) 
     {
-        
         if(root==NULL) return 0;
+        // diameter=sum of max height of lmt and rmt
+        int depth=height(root->left)+height(root->right);
 
-        int path= height(root->left)+ height(root->right);  // including current root node 
+        // store the values 
+        mxdepth=max(mxdepth,depth);
+        // since we have to visit every node call aminfn within main fn 
 
-        maxpath=max(path,maxpath);
+        int lst=diameterOfBinaryTree(root->left);
+        int rst= diameterOfBinaryTree(root->right);
 
-        diameterOfBinaryTree(root->left);
-        diameterOfBinaryTree(root->right);
-
-        return maxpath;
+        return mxdepth;
     }
 };
