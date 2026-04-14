@@ -11,13 +11,15 @@
  */
 class Solution {
 public:
-int solve(TreeNode*root)
+int height(TreeNode* root)
 {
-    if(root==nullptr) return 0;
-    return 1+max(solve(root->left),solve(root->right));
+    if(root==NULL) return 0;
+
+    return 1+ max(height(root->left),height(root->right));
 }
     int maxDepth(TreeNode* root) 
     {
-        return solve(root);    
+      // using dfs 
+      return height(root);    
     }
 };
