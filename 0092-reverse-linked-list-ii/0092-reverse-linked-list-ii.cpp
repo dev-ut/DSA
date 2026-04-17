@@ -12,34 +12,32 @@ class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int left, int right) 
     {
-       // edge case handle ki what if list null ho and left or right baraabbr ho so return same llist
-       if(head==NULL || left ==right) return head;
-       // now we will make dummy node so that probel na aye 
-       ListNode* dummy = new ListNode(-1);
-       dummy->next=head;
+        if(head==NULL || head->next==NULL) return head;
+        if(left==right) return head;
+        ListNode*dummy=new ListNode(-1);
+        dummy->next=head;
 
-       // now to revrse 
-       ListNode* prev=dummy;
-       // now we got to place prev to the left 
-       for(int i=1;i<left;i++)
-       {
-        prev=prev->next;
-       }
-       ListNode* curr=prev->next;
-       ListNode* next=NULL;
-       ListNode* beforeLeft=prev;
+        ListNode * prev=dummy;
+        for(int i=1;i<left;i++)
+        {
+            prev=prev->next;
+        }
+        ListNode* curr=prev->next;
+        ListNode* next=NULL;
+        ListNode* initial=prev;
+        for(int i=left;i<=right;i++)
+        {
+            next=curr->next;
+            curr->next=prev;
+            prev=curr;
+            curr=next;
+        }
+        // conncetion 
+        initial->next->next=curr;
+        initial->next=prev;
+        
+        return dummy->next;
 
-       for(int i=left;i<=right;i++)
-       {
-        next=curr->next;
-        curr->next=prev;
-        prev=curr;
-        curr=next;
-       }
-       // joining
-       beforeLeft->next->next=curr;
-       beforeLeft->next=prev;
 
-       return dummy->next;
     }
 };
