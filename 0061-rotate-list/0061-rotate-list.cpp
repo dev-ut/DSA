@@ -12,31 +12,30 @@ class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) 
     {
-       // agr do node se km ho aur k 0 ho to
+      if(head==NULL || head->next==NULL || k==0) return head;  
+      ListNode* temp=head;
+      ListNode* tail=head;    
+      int size=0;
+      while(temp!=NULL)
+      {
+        if(temp->next!=NULL) tail=tail->next;
+        temp=temp->next;
+        size++;
         
-       if(head==NULL || head->next==NULL||k==0) return head;
-       ListNode*temp=head;
-       int size=1;
-       while(temp!=NULL && temp->next!=NULL)
-       {
-          size++;
-          temp=temp->next;
-       }
-       k=k%size;
-       if(k==0) return head;
-      // now wee have to make it cicrcular taki it shoyld joing head
-       temp->next=head;
-     // nnow we iwll amke sure from whicj index are we going to roate
-       int indx=size-k;
-       temp=head;
-       for(int i=1;i<indx;i++)
-       {
-        temp=temp->next;   // temp is positioned below it has to be rotated
-       }
-      // set new haed 
-      ListNode* newhead=temp->next;
+      }
+      
+      temp=head;
+      k=k%size;
+      tail->next=head; // amke it cyclic
+      int it=size-k;
+      while(it>1)
+      {
+        temp=temp->next;
+        it--;
+      }
+      ListNode * nh=temp->next;
       temp->next=nullptr;
-      return newhead;
 
+      return nh;
     }
 };
