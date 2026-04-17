@@ -10,12 +10,13 @@ class Solution {
 public:
     ListNode *detectCycle(ListNode *head) 
     {
-       // sabse pehle cycle pkdet hai ki  hai ki nhi 
-       ListNode* slow=head;
-       ListNode*fast=head;
-       bool flag=false;
-       while(fast!=NULL && fast->next!=nullptr)
-       {
+      ListNode* slow=head;
+      ListNode* fast=head;
+      bool flag=false;
+      if(head==NULL || head->next==NULL) return NULL;
+
+      while(fast!=NULL && fast->next!=NULL)
+      {
         slow=slow->next;
         fast=fast->next->next;
         if(slow==fast)
@@ -23,18 +24,19 @@ public:
          flag=true;
          break;
         } 
-       }
+        
+      }
+      if(flag==false) return nullptr; 
+      else
+      {
+        ListNode* temp=head;
 
-       if(flag==false) return NULL;
-       else
-       {
-        fast=head;
-        while(fast!=slow)
+        while(temp!=slow)
         {
-          slow=slow->next;  // dono ko eak hi baar bdahya hai 
-          fast=fast->next;  // ye ab jo bhi starting point hoga us position pr meet kr jyenge
+            slow=slow->next;
+            temp=temp->next;
         }
-         return fast;
-       }
+        return temp; 
+      }
     }
 };
