@@ -10,32 +10,36 @@
  */
 class Solution {
 public:
-    ListNode* removeNthFromEnd(ListNode* head, int n) 
-    {
-       int size=0; 
-       ListNode* temp=head;
+ListNode* removeNthFromEnd(ListNode* head, int n) 
+{
+        int size = 0;
+        ListNode* temp = head;
 
-       while(temp!=nullptr)
-       {
-        size++;
-        temp=temp->next;
-       }
+        while (temp != NULL) {
+            size++;
+            temp = temp->next;
+        }
 
-       int tempiteration =size-n;
-       // Edge case: remove head
-      if (tempiteration == 0)  // ye tb hoga jb n==sizze ho jyega ie last ka ist node ho jyega isiliye yeh return kr rhe  
-        return head->next;
+        // agar first node delete karni ho
+        if (size == n) {
+            temp = head;
+            head = head->next;
+            delete temp;
+            return head;
+        }
 
-       temp=head;
+        int it = size - n;
+        temp = head;
 
-       for(int i=1;i<tempiteration;i++)
-       {
-         temp=temp->next;
-       }
-       
-       // just remove
-       temp->next=temp->next->next;
-       return head;
+        while (it > 1) {
+            temp = temp->next;
+            it--;
+        }
 
+        ListNode* actualnode = temp->next;
+        temp->next = actualnode->next;
+        delete actualnode;
+
+        return head;
     }
 };
