@@ -207,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0908-middle-of-the-linked-list) |
+| [1721-swapping-nodes-in-a-linked-list](https://github.com/dev-ut/DSA/tree/master/1721-swapping-nodes-in-a-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-longest-mountain-in-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0875-longest-mountain-in-array) |
 | [0881-boats-to-save-people](https://github.com/dev-ut/DSA/tree/master/0881-boats-to-save-people) |
 | [0908-middle-of-the-linked-list](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0908-middle-of-the-linked-list) |
+| [1721-swapping-nodes-in-a-linked-list](https://github.com/dev-ut/DSA/tree/master/1721-swapping-nodes-in-a-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/dev-ut/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Stack
 |  |
