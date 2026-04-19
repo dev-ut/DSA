@@ -10,35 +10,42 @@
  */
 class Solution {
 public:
-    ListNode* mergeTwoLists(ListNode* a, ListNode* b) {
-        // merge sort is used to specifically mege linked list
-        //1.make a node which will contain smaller value .initally containing garbage value
-        ListNode *c=new ListNode(-1);
-        ListNode *t=c;
+    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) 
+    {
+      ListNode * tempa=list1;
+      ListNode * tempb=list2;
 
-        while(a!=NULL && b!=NULL)
+      ListNode* c=new ListNode(-1);
+      ListNode *tempc= c;
+      while(tempa!=NULL && tempb!=NULL)
+      {
+        if(tempa->val<=tempb->val)
         {
+            tempc->next=tempa;
+            tempa=tempa->next;
+        }
+        else
+        {
+            tempc->next=tempb;
+            tempb=tempb->next;
+        }
 
-            if(a->val<=b->val)
-            {
-                t->next=a;   //linked a
-                a=a->next;
-                t=t->next;
-
-            }
-            else
-            {
-                
-                t->next=b;   //linked b
-                b=b->next;
-                t=t->next;
-            }
-        } 
-          // agr a khtm ho gyi ho to
-          if(a==NULL) t->next=b;
-          else t->next=a;
-          return c->next;  // ek farzi node hai na
-        
+        tempc=tempc->next;
+      }
+      if(tempa!=NULL)
+      {
+        tempc->next=tempa;
+        tempa=tempa->next;
+        tempc=tempc->next;
+       }
+       if(tempb!=NULL)
+      {
+        tempc->next=tempb;
+        tempb=tempb->next;
+        tempc=tempc->next;
+       }
+      tempc=c;
+      return tempc->next;
         
     }
 };
