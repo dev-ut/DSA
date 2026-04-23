@@ -10,59 +10,46 @@ class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) 
     {
-       // dekho approch yrhi rhegi iski ki jiski length bdi hogi usko utna aagey move krnge aur jahn a nd b barabr ho jyenge return kr denge wo position 
-       ListNode *tempa=headA;
-       ListNode *tempb=headB;
-
-       // dono ki length nikl lo
-       int lenA=0,lenB=0;
-       while(tempa!=NULL)
-       {
-        tempa=tempa->next;
-        lenA++;
-        }
-        while(tempb!=NULL)
-       {
-        tempb=tempb->next;
-        lenB++;
-        }
-        // now dekhnge kiski length bdi hai
-        tempa=headA;
-        tempb=headB;
-
-        if(lenA>lenB)
+     //  Code Here
+        int sizea=0;
+        int sizeb=0;
+        ListNode* t1=headA;
+        ListNode* t2=headB;
+        while(t1!=NULL)
         {
-            int diff=lenA-lenB;
-            // jitna diffrence aya hai utna gey pointer kr do of greater list 
-            while(diff!=0)
+            sizea++;
+            t1=t1->next;
+        }
+         while(t2!=NULL)
+        {
+            sizeb++;
+            t2=t2->next;
+        }
+        int diff=0;
+         t1=headA;
+         t2=headB;
+        if(sizea>sizeb) 
+        {
+            diff=sizea-sizeb;
+           for(int i=0;i<diff;i++)
             {
-                tempa=tempa->next;
-                diff--;
+               t1=t1->next; 
             }
-            while(tempa!=tempb)
-            {
-                tempa=tempa->next;
-                tempb=tempb->next;
-            }
+            
         }
         else
         {
-           int diff=lenB-lenA;
-            // jitna diffrence aya hai utna gey pointer kr do of greater list 
-            while(diff!=0)
+            diff=sizeb-sizea;
+            for(int i=0;i<diff;i++)
             {
-                tempb=tempb->next;
-                diff--;
+                t2=t2->next;
             }
-            while(tempa!=tempb)
-            {
-                tempa=tempa->next;
-                tempb=tempb->next;
-            }  
         }
-
-        // at last they will meet and come out of loop at somepoint 
-        return tempa ;   // the exact point where thery are meeting
-
+        while(t1!=t2)
+        {
+            t1=t1->next;
+            t2=t2->next;
+        }
+        return t1;
     }
 };
