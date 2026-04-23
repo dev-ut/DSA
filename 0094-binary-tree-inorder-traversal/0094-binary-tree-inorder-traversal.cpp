@@ -13,40 +13,38 @@ class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) 
     {
-        // Morris traversal
-        vector<int>ans;
-        TreeNode* c=root;
+       // morris tracersal 
+       vector<int>ans;
+       if(root==NULL) return ans;   
+       TreeNode* c=root;
 
-        while(c!=NULL)
-        {
-            if(c->left!=NULL)
-            {
-             TreeNode * p=c->left;
-             while(p->right!=NULL && p->right!=c)
+       while(c!=NULL)
+       {
+          if(c->left!=NULL)
+          {
+             TreeNode* pred=c->left;
+             while(pred->right!=NULL && pred->right!=c)
              {
-                p=p->right;
+                pred=pred->right;
              }
-             if(p->right==NULL)
+             if(pred->right==NULL)
              {
-                // Make a Link To cureent
-                p->right=c;
+                pred->right=c;
                 c=c->left;
              }
-             if(c==p->right)
+             if(pred->right==c)
              {
-                p->right=NULL;
+                pred->right=NULL;
                 ans.push_back(c->val);
                 c=c->right;
              }
-
-            }
-            else
-            {
-              ans.push_back(c->val);
-              c=c->right;
-            }
-        }
+         }
+          else
+          {
+            ans.push_back(c->val);
+            c=c->right;
+          }
+        } 
         return ans;
-        
     }
 };
