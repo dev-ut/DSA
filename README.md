@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1755-defuse-the-bomb](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1755-defuse-the-bomb) |
 | [2104-sum-of-subarray-ranges](https://github.com/dev-ut/DSA/tree/master/2104-sum-of-subarray-ranges) |
+| [2126-destroying-asteroids](https://github.com/dev-ut/DSA/tree/master/2126-destroying-asteroids) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/dev-ut/DSA/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2294-minimum-time-to-complete-trips](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2294-minimum-time-to-complete-trips) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2432-number-of-zero-filled-subarrays) |
@@ -333,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/dev-ut/DSA/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/dev-ut/DSA/tree/master/0881-boats-to-save-people) |
 | [0891-score-after-flipping-matrix](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0891-score-after-flipping-matrix) |
+| [2126-destroying-asteroids](https://github.com/dev-ut/DSA/tree/master/2126-destroying-asteroids) |
 ## Sorting
 |  |
 | ------- |
@@ -349,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
 | [0881-boats-to-save-people](https://github.com/dev-ut/DSA/tree/master/0881-boats-to-save-people) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [2126-destroying-asteroids](https://github.com/dev-ut/DSA/tree/master/2126-destroying-asteroids) |
 ## Backtracking
 |  |
 | ------- |
