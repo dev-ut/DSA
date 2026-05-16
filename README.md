@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1603-running-sum-of-1d-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1603-running-sum-of-1d-array) |
 | [1628-count-submatrices-with-all-ones](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/dev-ut/DSA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1755-defuse-the-bomb](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1755-defuse-the-bomb) |
 | [2104-sum-of-subarray-ranges](https://github.com/dev-ut/DSA/tree/master/2104-sum-of-subarray-ranges) |
 | [2126-destroying-asteroids](https://github.com/dev-ut/DSA/tree/master/2126-destroying-asteroids) |
