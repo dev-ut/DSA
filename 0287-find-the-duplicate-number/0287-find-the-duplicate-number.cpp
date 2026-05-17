@@ -2,21 +2,27 @@ class Solution {
 public:
     int findDuplicate(vector<int>& nums) 
     {
-        unordered_map<int,int>mp;
-        int n=nums.size();
-        for(int i=0;i<n;i++)
-        {
-          mp[nums[i]]++;
-        }
+       // use slow and fast pointer method 
+       int slow=nums[0];
+        slow=nums[slow];
+        int fast=nums[0];
+        fast=nums[nums[fast]];
 
-        for(auto it :mp)
+        // detect cycle
+        while(slow!=fast)
         {
-            int key=it.first;
-            if(mp[key]>=2)
-            {
-                return key;
-            }
+            slow=nums[slow];
+             fast=nums[nums[fast]];
         }
-        return 0;
+        // now to find the starting pont of cycle 
+        slow=nums[0];
+        while(slow!=fast)
+        {
+            slow=nums[slow];
+            fast=nums[fast];
+        }
+        return slow;
+
+
     }
 };
