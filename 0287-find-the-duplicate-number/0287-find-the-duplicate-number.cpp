@@ -2,29 +2,21 @@ class Solution {
 public:
     int findDuplicate(vector<int>& nums) 
     {
-       int slow=nums[0];
-        int fast=nums[0];
-        slow=nums[slow];
-        fast=nums[nums[fast]];
-        // detect cycle
-
-        while(slow!=fast)
+        unordered_map<int,int>mp;
+        int n=nums.size();
+        for(int i=0;i<n;i++)
         {
-            // slow ko ek se bdhao fast ko 2 se
-            slow=nums[slow];
-            fast=nums[nums[fast]];
+          mp[nums[i]]++;
         }
-       
-        // now ab dekho cycle start khan se ho rhi very imp
 
-        slow=nums[0];
-        while(slow!=fast)
+        for(auto it :mp)
         {
-            //ek ek se bdhao
-            slow=nums[slow];
-            fast=nums[fast];
-
+            int key=it.first;
+            if(mp[key]>=2)
+            {
+                return key;
+            }
         }
-         return slow;
+        return 0;
     }
 };
