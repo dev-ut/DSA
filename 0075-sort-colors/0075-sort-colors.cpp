@@ -1,27 +1,29 @@
 class Solution {
 public:
-    void sortColors(vector<int>& nums) {
-        // we will use dutch falg algoritham for this
-        int n=nums.size();
-        int lo=0;
-        int mid=0;
-        int hi=n-1;
-        while(mid<=hi)
+    void sortColors(vector<int>& nums) 
+    {
+      //dutch nationl fflag alogo     
+      int lo=0;
+      int mid=0;
+      int hi=nums.size()-1;
+      while(mid<=hi)
+      {
+        if(nums[mid]==0)
         {
-            if(nums[mid]==2)
-            {
-                swap(nums[mid],nums[hi]);
-                hi--;
-            }
-            else if(nums[mid]==0){
-                swap(nums[mid],nums[lo]);
-                lo++;
-                mid++;
-            }
-            else {
-                mid++;            }
+            swap(nums[lo],nums[mid]);
+            lo++;
+            mid++;
         }
-        return;
-        
+        else if(nums[mid]==1)
+        {
+            mid++;
+        }
+        else
+        {
+          swap(nums[mid],nums[hi]);
+          hi--;
+
+        }
+      }
     }
 };
