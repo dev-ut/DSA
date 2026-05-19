@@ -32,13 +32,14 @@ public:
 
         tempc=tempc->next;
       }
-      if(tempa!=NULL)
+
+      while(tempa!=NULL)
       {
         tempc->next=tempa;
         tempa=tempa->next;
         tempc=tempc->next;
        }
-       if(tempb!=NULL)
+       while(tempb!=NULL)
       {
         tempc->next=tempb;
         tempb=tempb->next;
