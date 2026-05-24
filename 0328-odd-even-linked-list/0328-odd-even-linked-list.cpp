@@ -10,28 +10,35 @@
  */
 class Solution {
 public:
-ListNode* oddEvenList(ListNode* head) 
-{
-    if (head == NULL || head->next == NULL) return head;
-
-    // Directly use original nodes
-    ListNode* odd = head;            // 1st node
-    ListNode* even = head->next;     // 2nd node
-    ListNode* evenHead = even;       // for final joining
-
-    while (even!=NULL && even->next!=NULL)
+    ListNode* oddEvenList(ListNode* head) 
     {
-        odd->next = even->next;      // odd ko next odd se jodo
-        odd = odd->next;             // odd aage badhao
+        ListNode* oddhead= new ListNode(0);
+        ListNode* evenhead=new ListNode(0);
+        ListNode* eventail=evenhead;
+        ListNode* oddtail=oddhead;
+        int size=0;
+        ListNode* temp=head;
 
-        even->next = odd->next;      // even ko next even se jodo
-        even = even->next;           // even aage badhao
+        while(temp!=NULL)
+        {
+            size++;
+            if(size%2!=0) // odd index
+            {
+             oddtail->next=temp;
+             oddtail=oddtail->next;
+            }
+            else
+            {
+             eventail->next=temp;
+             eventail=eventail->next;
+            }
+            temp=temp->next;
+        }
+        // connect 
+        eventail->next=nullptr;
+        oddtail->next=evenhead->next;
+        
+
+        return oddhead->next;
     }
-
-    // end mein odd ka next evenHead se jod do
-    odd->next = evenHead;
-
-    return head;
-}
-
 };
