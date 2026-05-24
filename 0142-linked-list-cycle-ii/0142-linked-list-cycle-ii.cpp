@@ -12,31 +12,26 @@ public:
     {
       ListNode* slow=head;
       ListNode* fast=head;
-      bool flag=false;
-      if(head==NULL || head->next==NULL) return NULL;
+      int flag=0;
 
       while(fast!=NULL && fast->next!=NULL)
       {
         slow=slow->next;
         fast=fast->next->next;
-        if(slow==fast)
+        if(slow==fast) 
         {
-         flag=true;
-         break;
-        } 
-        
-      }
-      if(flag==false) return nullptr; 
-      else
-      {
-        ListNode* temp=head;
-
-        while(temp!=slow)
-        {
-            slow=slow->next;
-            temp=temp->next;
+            flag=1;
+            break;
         }
-        return temp; 
+      } 
+      if(flag==0) return nullptr;
+      ListNode* temp=head;
+      while(temp!=slow)
+      {
+        temp=temp->next;
+        slow=slow->next;
       }
+
+      return slow;
     }
 };
