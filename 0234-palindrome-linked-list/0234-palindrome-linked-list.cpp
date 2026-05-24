@@ -1,50 +1,54 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution {
 public:
-    ListNode* reverse(ListNode* head) 
-    {  
-        ListNode* prev = NULL;
-        ListNode* curr = head;
-        ListNode* Next = head;
-        while (curr != NULL) 
-        {
-            Next = curr->next; 
-            curr->next = prev;
-            prev = curr;
-            curr = Next;
-        }
-        return prev;  // Correction: Changed the return statement to return the head of the reversed list.
-    }
+ListNode * rev(ListNode * head)
+{
+    ListNode* prev=nullptr;
+    ListNode* curr=head;
+    ListNode* next=head;
 
+    while(curr!=NULL)
+    {
+        next=curr->next;
+        curr->next=prev;
+        prev=curr;
+        curr=next;
+    }
+    return prev;
+}
     bool isPalindrome(ListNode* head) 
     {
-        if (!head || !head->next)
-            return true;
+       if(head==NULL || head->next==NULL) return true;
+       ListNode* slow=head;
+       ListNode* fast=head;
+       while(fast!=NULL && fast->next!=NULL) 
+       {
+      slow=slow->next;
+      fast=fast->next->next;
+       }
+      
+       // now halfves 12321 why second half 
+       ListNode* secondhalf=rev(slow);
+       ListNode* firsthalf=head;
+       // checking the values
 
-          ListNode* slow=head;
-          ListNode* fast =head;
-          // finfing left middle
-          while(fast->next!=NULL && fast->next->next!=NULL)
-          {
-                slow= slow->next;
-                fast=fast->next->next;
-          }  
-          // now slow is at left middle whan se eak jyada ko reverse krna hai
-          // to ek pointer bna lo
-          ListNode* newhead=reverse(slow->next);
-          // make 2 ponter
-          ListNode*a=head;
-          ListNode*b=newhead;
-          // check
+       while(secondhalf!=NULL)
+       {
+        if(firsthalf->val!=secondhalf->val) return false;
 
-          while(b!=NULL)
-          {
-              if(a->val!=b->val) return false;
-              else 
-              {
-                  a=a->next;
-                  b=b->next;
-          }
-          }
+        firsthalf=firsthalf->next;
+        secondhalf=secondhalf->next;
+       }
        return true;
+
     }
 };
