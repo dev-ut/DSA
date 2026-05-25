@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/dev-ut/DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [0940-fruit-into-baskets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0943-sum-of-subarray-minimums) |
+| [0994-rotting-oranges](https://github.com/dev-ut/DSA/tree/master/0994-rotting-oranges) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/DSA/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1603-running-sum-of-1d-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1603-running-sum-of-1d-array) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0498-diagonal-traverse) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
 | [0891-score-after-flipping-matrix](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0891-score-after-flipping-matrix) |
+| [0994-rotting-oranges](https://github.com/dev-ut/DSA/tree/master/0994-rotting-oranges) |
 | [1628-count-submatrices-with-all-ones](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1628-count-submatrices-with-all-ones) |
 ## Recursion
 |  |
@@ -311,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/dev-ut/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [0994-rotting-oranges](https://github.com/dev-ut/DSA/tree/master/0994-rotting-oranges) |
 ## Binary Tree
 |  |
 | ------- |
