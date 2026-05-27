@@ -11,35 +11,35 @@
  */
 class Solution {
 public:
-int widthOfBinaryTree(TreeNode* root) 
-{
-    if(root == nullptr) return 0;
-    
-    queue<pair<TreeNode*, long long>> q;
-    q.push({root, 0});
-    int mxwidth = 0;
-    
-    while(!q.empty())
+    int widthOfBinaryTree(TreeNode* root) 
     {
-        int size = q.size();
-        long long left_indx  = q.front().second;
-        long long right_indx = q.back().second;
-        long long width = right_indx - left_indx + 1;  // +1 important
-        mxwidth = max(mxwidth, (int) width);
+    if(root==NULL) return 0;
+    queue<pair<TreeNode* ,int>>q;
+    int mw=0;
+    q.push({root,0});
+
+    while(q.size()>0)
+    {
+        int size=q.size();
+        long long left_indx=q.front().second;
+        long long rt_indx= q.back().second;
+        int width= rt_indx-left_indx+1;
         
-        for(int i = 0; i < size; i++) 
+        mw=max(mw,width);
+
+        for(int i=0;i<size;i++)
         {
-            auto p = q.front();
-            TreeNode* node = p.first;
-            long long indx = p.second-left_indx;
+            auto p=q.front();
+            TreeNode* node=p.first;
+            long long indx=p.second-left_indx;
             q.pop();
-            
-            if(node->left != nullptr) 
-                q.push({node->left, 2*indx + 1});
-            if(node->right != nullptr) 
-                q.push({node->right, 2*indx + 2});
+
+            if(node->left!=NULL) q.push({node->left,2*indx+1});
+
+            if(node->right!=NULL) q.push({node->right,2*indx+2});
         }
     }
-    return mxwidth;
-}
+    return mw;
+
+    }
 };
