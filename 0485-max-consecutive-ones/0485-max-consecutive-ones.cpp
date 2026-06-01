@@ -11,7 +11,7 @@ public:
     {
         if(nums[j] != 1)
         {
-            if(i<n)i = j + 1;
+            if(i<n)i = j + 1; // so that it wont. get out of bound
         }
         else
         {
