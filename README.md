@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0943-sum-of-subarray-minimums) |
 | [0994-rotting-oranges](https://github.com/dev-ut/DSA/tree/master/0994-rotting-oranges) |
+| [1004-max-consecutive-ones-iii](https://github.com/dev-ut/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/DSA/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1603-running-sum-of-1d-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1603-running-sum-of-1d-array) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0724-find-pivot-index) |
 | [0930-binary-subarrays-with-sum](https://github.com/dev-ut/DSA/tree/master/0930-binary-subarrays-with-sum) |
+| [1004-max-consecutive-ones-iii](https://github.com/dev-ut/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1603-running-sum-of-1d-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1603-running-sum-of-1d-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 ## Design
@@ -203,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0718-maximum-length-of-repeated-subarray](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0907-koko-eating-bananas) |
+| [1004-max-consecutive-ones-iii](https://github.com/dev-ut/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [2294-minimum-time-to-complete-trips](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/2294-minimum-time-to-complete-trips) |
 ## Linked List
 |  |
@@ -386,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/dev-ut/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/dev-ut/DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [0940-fruit-into-baskets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0940-fruit-into-baskets) |
+| [1004-max-consecutive-ones-iii](https://github.com/dev-ut/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/DSA/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/dev-ut/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
