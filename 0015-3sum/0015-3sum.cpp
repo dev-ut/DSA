@@ -2,43 +2,41 @@ class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) 
     {
-        int n =nums.size();
-        vector<vector<int>>ans;
-        sort(nums.begin(), nums.end());
-        
-        for(int i=0;i<n-2;i++)
+        int n=nums.size();
+       vector<vector<int>>fans;
+       sort(nums.begin(),nums.end());
+        for(int i=0;i<n;i++)
         {
-          if(i==0 || i>0 && nums[i]!=nums[i-1])
-          {
-            int l=i+1;
-            int r=n-1;
-            
-            while(l<r)
+            int sum=0;
+            int j=i+1;
+            int k=n-1;
+            if(i==0 || nums[i]!=nums[i-1])
             {
-             int sum=nums[i]+nums[l]+nums[r];
-             if(sum==0)
-             {
-                ans.push_back({nums[i],nums[l],nums[r]});
-                l++;
-                r--;
+                while(j<k)
+                {
+                    sum=nums[i]+nums[j]+nums[k];
+                    if(sum==0)
+                    {
+                      fans.push_back({nums[i],nums[j],nums[k]});
+                      j++;
+                      k--;
 
-                // we will check for suplicates now 
-                while(l<r && nums[l]==nums[l-1]) l++;
-                while(l<r && nums[r]==nums[r+1]) r--;
-               
-             }
-             else if(sum<0)
-             {
-                l++;   // ie positive no ki trf jao 
-             }
-             else
-             {
-                r--;  // negatoive no ki tef aao 
-             }
+                      //supoose beech m there exists multiple duplicate elment then 
+                      while(j<k && nums[j]==nums[j-1]) j++;
+                      while(k>j && nums[k]==nums[k+1])k--;
+                    }
+                    else if(sum<0)
+                    {
+                        j++;
+                    }
+                    else
+                    {
+                        k--;
+                    }
+
+                }
             }
-          }
         }
-        return ans;
-       
+        return fans;
     }
 };
