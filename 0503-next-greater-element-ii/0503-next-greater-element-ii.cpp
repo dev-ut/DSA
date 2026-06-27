@@ -2,22 +2,25 @@ class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) 
     {
-        // since we have to iterate its twice 
         int n=nums.size();
+        // we have to make this array loop two times completely so can we acess the 
+        //next greatest elment in loop 
         vector<int>ans(n);
-
         stack<int>st;
+
         for(int i=2*n-1;i>=0;i--)
         {
-            int actualindx=i%n;
-            while(st.size()>0 && st.top()<=nums[actualindx])
+            int actualindex=i%n;
+
+            while(st.size()>0 && st.top()<=nums[actualindex])
             {
                 st.pop();
             }
-            if(st.size()==0)ans[actualindx]=-1;
-            else ans[actualindx]=st.top();
+            if(st.size()==0)ans[actualindex]=-1;
+            else ans[actualindex]=st.top();
 
-            st.push(nums[actualindx]);
+            st.push(nums[actualindex]);
+
         }
         return ans;
     }
