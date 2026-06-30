@@ -2,35 +2,23 @@ class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) 
     {
-        int n=nums.size();
-        int noz=0;
-        int tp=1;
-        for(int i=0;i<n;i++)
-        {
-            if(nums[i]==0) noz++;
-            else tp*=nums[i];
-        }
-        vector<int>ans(n,0);
-        if(noz>1)
-        {
-          return ans;
-        }
-        for(int i=0;i<n;i++)
-        {
-            if(noz==1)
-            {
-             if(nums[i]==0)
-             {
-               ans[i]=tp;
-             }
-             
-            }
-            else
-            {
-                ans[i]=tp/nums[i];
-            }
-          
-        }
-        return ans;
+      // without devision method 
+      // rembeber whensoever we want the values from index i could be precomputed we use 
+      // preix and suffix prdouct from that index i;
+      int n=nums.size();
+      vector<int>ans(n);
+      ans[0]=1;  // as product of no before index 0 will be 1
+      for(int i=1;i<n;i++)
+      {
+        ans[i]=ans[i-1]*nums[i-1];
+      }
+      int suffix=1;
+      for(int i=n-1;i>=0;i--)
+      {
+        ans[i]=ans[i]*suffix;
+        suffix=suffix*nums[i];
+      } 
+
+      return ans;   
     }
 };
