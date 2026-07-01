@@ -8,71 +8,59 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
-    ListNode* merge(ListNode* a, ListNode* b)
+ListNode* merge(ListNode* a,ListNode* b)
+{
+    ListNode* c=new ListNode(0);
+    ListNode* tempc=c;
+
+    while(a!=NULL && b!=NULL)
     {
-        // dummy node banaya easy attach ke liye
-        ListNode* c = new ListNode(-1);
-        ListNode* tempc = c;
-
-        while (a != NULL && b != NULL)
+        if(a->val<=b->val)
         {
-            if (a->val <= b->val)
-            {
-                tempc->next = a;
-                a = a->next;
-            }
-            else
-            {
-                tempc->next = b;
-                b = b->next;
-            }
-            tempc = tempc->next;
+            tempc->next=a;
+            a=a->next;
         }
-
-        // bachi hui list attach kar do
-        if (a != NULL) tempc->next = a;
-        if (b != NULL) tempc->next = b;
-
-        return c->next;
+        else
+        {
+            tempc->next=b;
+            b=b->next;
+        }
+        tempc=tempc->next;
     }
 
+    if(a!=NULL)
+    {
+        tempc->next=a;
+    }
+    else tempc->next=b;
+
+    return c->next;
+}
     ListNode* sortList(ListNode* head) 
     {
-        // base case
-        if (head == NULL || head->next == NULL) return head;
+        if(head==NULL || head->next==NULL) return head;   // base case
 
-        // middle nikalne ke liye slow-fast
-        ListNode* slow = head;
-        ListNode* fast = head->next;
+        ListNode* slow=head;
+        ListNode* fast=head;
 
-        while (fast != NULL && fast->next != NULL)
+        while(fast->next!=NULL && fast->next->next!=NULL)
         {
-            slow = slow->next;
-            fast = fast->next->next;
+            slow=slow->next;
+            fast=fast->next->next;
         }
 
-        // ab do parts me tod do
-        ListNode* a = head;
-        ListNode* b = slow->next;
-        slow->next = NULL;
+        ListNode* a=head;
+        ListNode* b=slow->next;
+        slow->next=NULL;
 
-        // recursion se sort karo
-        a = sortList(a);
-        b = sortList(b);
+        // devide further 
+        a=sortList(a);
+        b=sortList(b);
 
-        // dono ko merge karo
-        return merge(a, b);
+        // merge them 
+
+        return merge(a,b);
     }
 };
