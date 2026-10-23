@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/dev-ut/DSA/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0735-asteroid-collision) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
+| [0861-score-after-flipping-matrix](https://github.com/dev-ut/DSA/tree/master/0861-score-after-flipping-matrix) |
 | [0875-longest-mountain-in-array](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0875-longest-mountain-in-array) |
 | [0881-boats-to-save-people](https://github.com/dev-ut/DSA/tree/master/0881-boats-to-save-people) |
 | [0891-score-after-flipping-matrix](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0891-score-after-flipping-matrix) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0498-diagonal-traverse) |
 | [0733-flood-fill](https://github.com/dev-ut/DSA/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0794-swim-in-rising-water) |
+| [0861-score-after-flipping-matrix](https://github.com/dev-ut/DSA/tree/master/0861-score-after-flipping-matrix) |
 | [0891-score-after-flipping-matrix](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0891-score-after-flipping-matrix) |
 | [0994-rotting-oranges](https://github.com/dev-ut/DSA/tree/master/0994-rotting-oranges) |
 | [1628-count-submatrices-with-all-ones](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/1628-count-submatrices-with-all-ones) |
@@ -357,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0134-gas-station) |
 | [0455-assign-cookies](https://github.com/dev-ut/DSA/tree/master/0455-assign-cookies) |
+| [0861-score-after-flipping-matrix](https://github.com/dev-ut/DSA/tree/master/0861-score-after-flipping-matrix) |
 | [0881-boats-to-save-people](https://github.com/dev-ut/DSA/tree/master/0881-boats-to-save-people) |
 | [0891-score-after-flipping-matrix](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0891-score-after-flipping-matrix) |
 | [2126-destroying-asteroids](https://github.com/dev-ut/DSA/tree/master/2126-destroying-asteroids) |
@@ -452,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0078-subsets) |
 | [0287-find-the-duplicate-number](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0287-find-the-duplicate-number) |
 | [0645-set-mismatch](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0645-set-mismatch) |
+| [0861-score-after-flipping-matrix](https://github.com/dev-ut/DSA/tree/master/0861-score-after-flipping-matrix) |
 | [0891-score-after-flipping-matrix](https://github.com/dev-ut/Prefix_Sum-Pattern1-/tree/master/0891-score-after-flipping-matrix) |
 ## Monotonic Stack
 |  |
