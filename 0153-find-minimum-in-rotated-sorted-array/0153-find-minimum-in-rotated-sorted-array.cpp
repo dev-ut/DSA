@@ -6,24 +6,21 @@ public:
       int lo=0;
       int hi=n-1;
       int ans=INT_MAX;
+
       while(lo<=hi)
       {
         int mid=lo+(hi-lo)/2;
-        //left sorted part check for min 
-        if(nums[lo]<=nums[mid])
+        if(nums[hi]<=nums[mid])
         {
             ans=min(ans,nums[lo]);
-            lo=mid+1;               // isse na hmara rigt part acess ho ja rha hai asani se 
+            lo=mid+1;
         }
         else
         {
+         ans=min(ans,nums[mid]);
             hi=mid-1;
-           ans=min(ans,nums[mid]);
-           
         }
-
       }
       return ans;    
     }
 };
-//Note : expmaple first wala hi rkho {3,4,5,1,2};
