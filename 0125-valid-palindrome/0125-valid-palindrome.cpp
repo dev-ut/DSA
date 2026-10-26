@@ -2,29 +2,25 @@ class Solution {
 public:
     bool isPalindrome(string s) 
     {
-       int n=s.length();
-       string str="";
+        int n=s.length();
+        string str="";
 
-       // removing all the special characters including space 
-
-       for(int i=0;i<n;i++)
-       {
-        if(isalnum(s[i]))
+        for(int i=0;i<n;i++)
         {
-          str+=tolower(s[i]);   // yhn se khali string taiyr ho gyi plane eakdum
+          if(isalnum(s[i]))
+          {
+           str+=tolower(s[i]);
+          }
         }
-       }
-
-       cout<<str;
-      int i=0;
-      int j=str.length()-1;
-      while(i<=j)
-      {
-          if(str[i]!=str[j]) return false;
-          i++;
-          j--;
-      } 
-
-      return true;
+        // now we will check ki ye palindrome hai ki nhi 
+        int i=0;
+        int j=str.length()-1;
+        while(i<=j)
+        {
+            if(str[i]!=str[j]) return false;
+            i++;
+            j--;
+        }
+        return true;
     }
 };
